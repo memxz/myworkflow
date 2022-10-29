@@ -7,11 +7,11 @@ on:
 # Jobs in the workflow
 jobs: 
   # jobs name
-  My-first-workflow
+  My-first-workflow:
   # OS that this workflow will be running on
     runs-on: ubuntu-latest
 
     # list of steps to perform task
     steps: 
-    - names: echo the date
+    - name: echo the date
       run: echo "The current time and date in Github is $(date)"
