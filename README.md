@@ -1,2 +1,1 @@
-# myworkflow
-## Json and YAML
+[![My First Workflow](https://github.com/memxz/myworkflow/actions/workflows/main.yaml/badge.svg)](https://github.com/memxz/myworkflow/actions/workflows/main.yaml)
