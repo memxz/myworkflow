@@ -16,4 +16,4 @@ jobs:
     - name: echo the date
       run: echo "The current time and date in Github is $(date)"
     - name: ehco information about the context
-      run: echo "head_ref - ${{" github.head_ref }}, owner - ${{github.repository_owner}}
+      run: echo "head_ref - ${{ github.head_ref }}, owner - ${{github.repository_owner}}"
